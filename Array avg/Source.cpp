@@ -9,7 +9,7 @@ SCAN:scanf_s("%d", &n);
 	if (n > 100 || n < 0)
 	{
 		printf("Error\n");
-		printf("Enter the number again: ");
+		printf("Enter the range again: ");
 		goto SCAN;
 	}
 	for (i = 0; i < n; i++)
@@ -20,4 +20,5 @@ SCAN:scanf_s("%d", &n);
 	}
 	printf("sum is : %.2f\n", sum);
 	printf("Avarage = %.2f", sum / n);
+	return(0);
 }
